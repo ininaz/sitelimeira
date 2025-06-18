@@ -235,9 +235,14 @@ th{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    overflow-x: auto;
     img{
         width: 170px;
     }
+}
+.icone{
+    text-align: end;
+    font-size: small;
 }
 
 .mapa{
@@ -412,7 +417,9 @@ iframe{
         }
     }
         .foto-miniatura{
-            flex-wrap: wrap;
+            overflow-x: auto;
+            background-color: #444;
+            border: #444 solid 2px;
             img{
                 width: 25%;
             }
